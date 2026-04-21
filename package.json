@@ -1,0 +1,14 @@
+{
+  "name": "commit_git",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "commit_git": "./commit_git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "install:local": "bash scripts/install-commit-git.sh"
+  }
+}
